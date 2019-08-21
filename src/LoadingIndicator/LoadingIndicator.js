@@ -25,8 +25,7 @@ class LoadingIndicator extends PureComponent {
         {this.props.error ? (
           <div className="imageViewerErrorLoadingIndicator loadingIndicator">
             <div className="indicatorContents">
-              <h4>No Image to display</h4>
-              <p className="description">Image not found.</p>
+              <h4>No image to display</h4>
               <p className="details">{this.props.error.message}</p>
             </div>
           </div>
